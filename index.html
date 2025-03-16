@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>八年级英语听力训练平台</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* 保留原有基础样式 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        /* 新增滚动区域样式 */
+        .audio-list {
+            max-height: 600px;
+            overflow-y: auto;
+            padding-right: 10px;
+        }
+
+        .audio-item {
+            margin: 1rem 0;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+        }
+
+        .file-title {
+            color: #2d3748;
+            font-size: 0.95rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .file-title::before {
+            content: '🔊';
+            margin-right: 0.5rem;
+            font-size: 0.8em;
+        }
+
+        audio {
+            width: 100%;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.05));
+        }
+
+        /* 自定义滚动条 */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #c1c1c1;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #a8a8a8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎧 八年级下册听力全集</h1>
+        <div class="audio-list">
+            <!-- 完整列表开始 -->
+            <div class="audio-item">
+                <div class="file-title">1 基训八下Unit 1</div>
+                <audio controls>
+                    <source src="audio/1 基训八下Unit 1.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="file-title">2 基训八下Unit 2</div>
+                <audio controls>
+                    <source src="audio/2 基训八下Unit 2.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="file-title">3 基训八下Unit 3</div>
+                <audio controls>
+                    <source src="audio/3 基训八下Unit 3.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="file-title">4 基训八下Unit 4</div>
+                <audio controls>
+                    <source src="audio/4 基训八下Unit 4.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="file-title">5 基训八下Unit 5</div>
+                <audio controls>
+                    <source src="audio/5 基训八下Unit 5.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="file-title">7 基训八下Unit 6</div>
+                <audio controls>
+                    <source src="audio/7 基训八下Unit 6.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="file-title">8 基训八下Unit 7</div>
+                <audio controls>
+                    <source src="audio/8 基训八下Unit 7.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="file-title">9 基训八下Unit 8</div>
+                <audio controls>
+                    <source src="audio/9 基训八下Unit 8.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="file-title">10 基训八下Unit 9</div>
+                <audio controls>
+                    <source src="audio/10 基训八下Unit 9.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="file-title">11 基训八下Unit 10</div>
+                <audio controls>
+                    <source src="audio/11 基训八下Unit 10.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <div class="audio-item">
+                <div class="file-title">12 基训八下期末</div>
+                <audio controls>
+                    <source src="audio/12 基训八下期末.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <!-- 完整列表结束 -->
+        </div>
+    </div>
+</body>
+</html>
